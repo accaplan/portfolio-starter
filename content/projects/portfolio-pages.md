@@ -2,87 +2,18 @@
 layout: project
 title: Portfolio
 dateEnd: 2020-04-04
-media:
-  - type: image
-    filename: pdf-1.jpg
-    size: sm
-    alt: title page
-
-  - type: image
-    filename: pdf-2.jpg
-    size: lg
-    alt: page2
-
-  - type: image
-    filename: pdf-3.jpg
-    size: lg
-    alt: page3
-
-  - type: image
-    filename: pdf-4.jpg
-    size: lg
-    alt: page4
-
-  - type: image
-    filename: pdf-5.jpg
-    size: lg
-    alt: page5
-
-  - type: image
-    filename: pdf-6.jpg
-    size: lg
-    alt: page6
-
-  - type: image
-    filename: pdf-7.jpg
-    size: lg
-    alt: page7
-
-  - type: image
-    filename: pdf-8.jpg
-    size: lg
-    alt: page8
-
-  - type: image
-    filename: pdf-9.jpg
-    size: lg
-    alt: page9
-
-  - type: image
-    filename: pdf-10.jpg
-    size: lg
-    alt: page10
-
-  - type: image
-    filename: pdf-11.jpg
-    size: lg
-    alt: page11
-
-  - type: image
-    filename: pdf-12.jpg
-    size: lg
-    alt: page12
-
-  - type: image
-    filename: pdf-13.jpg
-    size: lg
-    alt: page13
-
-  - type: image
-    filename: pdf-14.jpg
-    size: lg
-    alt: page14
-
-  - type: image
-    filename: pdf-15.jpg
-    size: lg
-    alt: page15
-
-  - type: image
-    filename: pdf-16.jpg
-    size: lg
-    alt: page16
-
 ---
 
 The following is my current portfolio for professional work. A mix of academic and professional. Stay tuned for personal work.
+
+<div id="adobe-dc-view" style="width: 1000px;"></div>
+<script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+<script type="text/javascript">
+	document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
+		var adobeDCView = new AdobeDC.View({clientId: "ba95a1476d7544178ed64a7b114493a7", divId: "adobe-dc-view"});
+		adobeDCView.previewFile({
+			content:{location: {url: "https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:f9c1a676-0740-4d5d-811d-803e1a63afac Portfolio.pdf"}},
+			metaData:{fileName: "Portfolio.pdf"}
+		}, {embedMode: "IN_LINE"});
+	});
+</script>
