@@ -1,7 +1,7 @@
 ---
 eleventyNavigation:
   key: GitHub &nearr;
-  order: 3
+  order: 4
   url: http://github.com/accaplan
 permalink: false
 ---
